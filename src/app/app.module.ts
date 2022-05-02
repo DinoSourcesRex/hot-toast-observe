@@ -13,7 +13,7 @@ import { ToastEffects } from './store/toast/toast.effects';
 import { reducers } from './store/root.reducer';
 // Third Party
 import { HotToastModule } from '@ngneat/hot-toast';
-import { environment } from 'src/environments/environment';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [AppComponent],
