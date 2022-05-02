@@ -16,6 +16,6 @@ export class PokemonService {
   getPokemonDetails(pokemonName: string): Observable<PokemonDetails> {
     return this.http
       .get<PokemonDetails>(`${this.pokemonApiUrl}/pokemon/${pokemonName}`)
-      .pipe(delay(10000));
+      .pipe(delay(5000));
   }
 }
